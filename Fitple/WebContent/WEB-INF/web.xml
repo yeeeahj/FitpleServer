@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Fitple</display-name>
+
+     <context-param>
+		<param-name>driver</param-name>
+		<param-value>com.mysql.jdbc.Driver</param-value>
+	</context-param>
+	<context-param>
+		<param-name>url</param-name>
+		<param-value>jdbc:mysql://182.162.104.185/Fitple?useUnicode=true&amp;characterEncoding=UTF-8</param-value>
+	</context-param>
+	<context-param>
+		<param-name>username</param-name>
+		<param-value>root</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>fl1ek2did3</param-value>
+	</context-param>
+	
+
+	
+	<servlet>
+	<servlet-name>LoginServlet</servlet-name>
+	<servlet-class>Servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>LoginServlet</servlet-name>
+	<url-pattern>login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>JoinServlet</servlet-name>
+	<servlet-class>Servlet.JoinServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>JoinServlet</servlet-name>
+	<url-pattern>/Servlet/JoinServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>LikeServlet</servlet-name>
+	<servlet-class>Servlet.LikeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>LikeServlet</servlet-name>
+	<url-pattern>/Servlet/LikeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	
+	<servlet-name>ProfileImageServlet</servlet-name>
+	<servlet-class>Servlet.ProfileImageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>ProfileImageServlet</servlet-name>
+	<url-pattern>/Servlet/ProfileImageServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>CommentWriteServlet</servlet-name>
+	<servlet-class>Servlet.CommentWriteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>CommentWriteServlet</servlet-name>
+	<url-pattern>/Servlet/CommentWriteServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	
+	<servlet-name>CommentListServlet</servlet-name>
+	<servlet-class>Servlet.CommentListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>CommentListServlet</servlet-name>
+	<url-pattern>/Servlet/CommentListServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+
+	<servlet-name>GroupAddServlet</servlet-name>
+	<servlet-class>Servlet.GroupAddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>GroupAddServlet</servlet-name>
+	<url-pattern>/Servlet/GroupAddServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	
+	<servlet-name>GroupJoinServlet</servlet-name>
+	<servlet-class>Servlet.GroupJoinServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>GroupJoinServlet</servlet-name>
+	<url-pattern>/Servlet/GroupJoinServlet</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+	<servlet-name>GroupListServlet</servlet-name>
+	<servlet-class>Servlet.GroupListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>GroupListServlet</servlet-name>
+	<url-pattern>/Servlet/GroupListServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>GroupDetailServlet</servlet-name>
+	<servlet-class>Servlet.GroupDetailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>GroupDetailServlet</servlet-name>
+	<url-pattern>/Servlet/GroupDetailServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>FeedServlet</servlet-name>
+	<servlet-class>Servlet.FeedServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>FeedServlet</servlet-name>
+	<url-pattern>/Servlet/FeedServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>AddMemberServlet</servlet-name>
+	<servlet-class>Servlet.AddMemberServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>AddMemberServlet</servlet-name>
+	<url-pattern>/Servlet/AddMemberServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>NickCheckServlet</servlet-name>
+	<servlet-class>Servlet.NickCheckServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>NickCheckServlet</servlet-name>
+	<url-pattern>/Servlet/NickCheckServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>FeedAddServlet</servlet-name>
+	<servlet-class>Servlet.FeedAddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>FeedAddServlet</servlet-name>
+	<url-pattern>/Servlet/FeedAddServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>CommunityServlet</servlet-name>
+	<servlet-class>Servlet.CommunityServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>CommunityServlet</servlet-name>
+	<url-pattern>/Servlet/CommunityServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>CommunityDetailServlet</servlet-name>
+	<servlet-class>Servlet.CommunityDetailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>CommunityDetailServlet</servlet-name>
+	<url-pattern>/Servlet/CommunityDetailServlet</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+	<servlet-name>MainCommunityServlet</servlet-name>
+	<servlet-class>Servlet.MainCommunityServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>MainCommunityServlet</servlet-name>
+	<url-pattern>/Servlet/MainCommunityServlet</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+	<servlet-name>HotCommunityServlet</servlet-name>
+	<servlet-class>Servlet.HotCommunityServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>HotCommunityServlet</servlet-name>
+	<url-pattern>/Servlet/HotCommunityServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>StatisticServlet</servlet-name>
+	<servlet-class>Servlet.StatisticServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>StatisticServlet</servlet-name>
+	<url-pattern>/Servlet/StatisticServlet</url-pattern>
+	</servlet-mapping>
+		<servlet>
+	<servlet-name>GroupAddTestServlet</servlet-name>
+	<servlet-class>Servlet.GroupAddTestServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>GroupAddTestServlet</servlet-name>
+	<url-pattern>/Servlet/GroupAddTestServlet</url-pattern>
+	</servlet-mapping>
+		<servlet>
+	<servlet-name>FeedAddTestServlet</servlet-name>
+	<servlet-class>Servlet.FeedAddTestServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>FeedAddTestServlet</servlet-name>
+	<url-pattern>/Servlet/FeedAddTestServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+
+</web-app>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJ/JAR/gson-2.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJ/JAR/javax.json-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJ/JAR/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJ/JAR/org.eclipse.jface-3.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJ/JAR/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJ/JAR/cos.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJ/JAR/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJ/JAR/android-async-http-1.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJ/JAR/mysql-connector-java-5.1.10.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_102">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
